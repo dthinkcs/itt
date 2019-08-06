@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+  </head>
+  <body>
+    <h1>Student Registration Form</h1>
+    <form action="index.html" method="post">
+      First Name: <br/>
+      <input type="text" name="firstName" value=""> <br/>
+      Last Name: <br/>
+      <input type="text" name="lastName" value=""> <br/>
+      Address: <br/>
+      <input type="text" name="address" size="50" value=""> <br/>
+      Email: <br/>
+      <input type="text" name="email" value=""> <br/>
+
+      Gender <br/>
+      <input type="radio" name="gender" value="m"/>Male <br/>
+      <input type="radio" name="gender" value="f"/>Female <br/>
+      <input type="radio" name="gender" value="o"/>Other <br/>
+      <input type="radio" name="gender" value="ntm"/>Prefer Not To Mention <br/>
+      Region:
+      <select name="homeTown">
+        <option value="ni">North India</option>
+        <option value="ei">East India</option>
+        <option value="wi">West India</option>
+        <option value="si">South India</option>
+      </select> <br/>
+      Additional Comments:<br/>
+      <textarea name="comments" rows="6" cols="35"> </textarea> <br/>
+
+      <input type="submit" name="sumbit" value="Submit (Click Here)">
+
+    </form>
+  </body>
+</html>
