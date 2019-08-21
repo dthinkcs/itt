@@ -3,14 +3,14 @@
   <head>
     <title>Frame Target Example</title>
   </head>
-  <body>
-    <frameset rows = "150px, *, 100px">
-      <frame src = "pgm1.html">
-      <frameset cols = "175px, 175px">
+
+    <frameset rows = "150, *, 100 ">
+      <frame name = "Top" src = "pgm1.html">
+      <frameset cols = "175, 175">
         <frame src = "menu.html">
-        <frame src = "content.html">
+        <frame name="Content" src = "content.html">
       </frameset>
-      <frame src = "pgm2.html">
+      <frame name="Bottom" src = "pgm2.html">
     </frameset>
-  </body>
+
 </html>
