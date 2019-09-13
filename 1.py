@@ -1,3 +1,39 @@
+# Lab Exercises
+# 1. Write the Python programs to do the following:
+# a) Implement simple calculator operations.
+# b) Find the transpose of a matrix.
+# c) Multiplication of two matrices.
+# d) Addition of two matrices.
+# e) Sum of natural numbers using recursion.
+# f) Fibonacci sequence using recursion.
+# g) To convert decimal to binary, octal and hexadecimal.
+# h) To illustrate different set operations.
+# i) Write a program to find whether a list is palindrome or not.
+# j) Write a Python program to create a Caesar encryption without using maketrans and translate functions. In cryptography, a Caesar cipher, is one of the simplest and most widely known encryption techniques. In this method each alphabet in the input is replaced by another alphabet with some fixed no of positions down the alphabet.
+# Example: ZOO is replaced with CRR
+# Additiona1 Exercises
+# 1. Write a Python program to generate the prime numbers between m and n.
+# 2. Write a Python program to sort the contents of a list without using in built in sort method.
+# 3. Write a Python program to find the sum of the elements of the list using recursion
+# 4. Write a program to remove the duplicate elements of a list
+# 5. Write a Python program to reverse the list without using any of the methods/slicing
+# Lab Exercises
+# 1. Write the Python programs to do the following:
+# a) To check whether the string is palindrome or not.
+# b) To remove punctuations from the string.
+# c) Sort words in alphabetic order.
+# d) To merge mails.
+# e) To find and replace a string using regular expressions.
+# f) To display environment variables.
+# Additional Exercises
+# ITT LAB MANUAL
+# 1. Write a Python program named states.py that declares a variable states with value "Mississippi Alabama Texas Massachusetts Kansas". write a Python program that does the following:
+# a) Search for a word in variable states that ends in xas. Store this word in element 0 of a list named statesList.
+# b) Search for a word in states that begins with k and ends in s. Perform a case-insensitive comparison. [Note: Passing re.I as a second parameter to method compile performs a case-insensitive comparison.] Store this word in element 1 of statesList.
+# c) Search for a word in states that begins with M and ends in s. Store this word in element 2 of the list.
+# d) Search for a word in states that ends in a. Store this word in element 3 of the list.
+# e) Search for a word that begins with M in states at the beginning of the string. Store this word at element 4 of the list.
+# f) Output the array states List to the screen.
 
 n = (eval(input().strip()))
 print(n)
